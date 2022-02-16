@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.022" tests="2" failures="1">
-  <testsuite name="Root Suite" timestamp="2022-02-15T00:59:02" tests="0" file="cypress/integration/sample_spec.js" failures="0" time="0">
+<testsuites name="Mocha Tests" time="0.018" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-02-15T23:56:52" tests="0" file="cypress/integration/sample_spec.js" failures="0" time="0">
   </testsuite>
-  <testsuite name="ONOFRE - First Test" timestamp="2022-02-15T00:59:02" tests="1" failures="0" time="0.022">
-    <testcase name="ONOFRE - First Test Does not do much!" time="0.022" classname="Does not do much!">
+  <testsuite name="ONOFRE - First Test" timestamp="2022-02-15T23:56:52" tests="1" failures="0" time="0.018">
+    <testcase name="ONOFRE - First Test Does not do much!" time="0.018" classname="Does not do much!">
     </testcase>
   </testsuite>
-  <testsuite name="ONOFRE - second test" timestamp="2022-02-15T00:59:02" tests="1" failures="1" time="0">
+  <testsuite name="ONOFRE - second test" timestamp="2022-02-15T23:56:52" tests="1" failures="1" time="0">
     <testcase name="ONOFRE - second test Gets, types and asserts" time="0" classname="Gets, types and asserts">
       <failure message="Timed out retrying: expected &apos;&lt;input#email1.form-control.action-email&gt;&apos; to have value &apos;fake@email.comx&apos;, but the value was &apos;fake@email.com&apos;" type="CypressError"><![CDATA[CypressError: Timed out retrying: expected '<input#email1.form-control.action-email>' to have value 'fake@email.comx', but the value was 'fake@email.com'
     at Object.cypressErr (https://example.cypress.io/__cypress/runner/cypress_runner.js:86207:11)
