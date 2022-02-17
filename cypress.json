@@ -1,5 +1,5 @@
 {
-  "projectId": "hvgysn"
+  "projectId": "hvgysn",
   "reporter": "junit",
   "reporterOptions": {
     "mochaFile": "results/test-results.xml",
