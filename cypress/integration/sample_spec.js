@@ -6,7 +6,7 @@ describe('ONOFRE - 1st Test', function() {
  
 describe('ONOFRE - 2nd test', function() {
   it('TC0002 - Gets,validates onofre and asserts', function() {
-    cy.visit('https://onofreliscano.com')
+    cy.visit('http://onofreliscano.com')
 
     //cy.contains('type').click()
     cy.url().should('include', 'onofre')
