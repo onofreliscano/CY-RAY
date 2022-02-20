@@ -1,0 +1,115 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-02-17T16:21:42.891Z",
+    "end": "2022-02-17T16:21:44.434Z",
+    "duration": 1543,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "0c7accf8-0bec-4d1c-9128-987c84b0b178",
+    "title": "",
+    "fullFile": "cypress/integration/sample_spec.js",
+    "file": "cypress/integration/sample_spec.js",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "442deaec-37d4-4148-be5c-271220b42060",
+        "title": "ONOFRE - 1st Test",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "TC001 - just for fun!",
+            "fullTitle": "ONOFRE - 1st Test TC001 - just for fun!",
+            "duration": 16,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "expect(true).to.equal(true);",
+            "err": {},
+            "isRoot": false,
+            "uuid": "1ce91cf5-ce55-4eb2-8941-81d38d603aa1",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "1ce91cf5-ce55-4eb2-8941-81d38d603aa1"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 16,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      },
+      {
+        "uuid": "bab23e73-cb3f-43ce-8020-432a9de4c3fb",
+        "title": "ONOFRE - 2nd test",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "TC0002 - Gets,validates onofre and asserts",
+            "fullTitle": "ONOFRE - 2nd test TC0002 - Gets,validates onofre and asserts",
+            "duration": 282,
+            "state": "passed",
+            "speed": "slow",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "cy.visit('http://onofreliscano.com'); //cy.contains('type').click()\n// cy.url().should('include', 'onofre')\n// cy.get('.main_page')\n//   .should('include', 'Apache2')",
+            "err": {},
+            "isRoot": false,
+            "uuid": "0a159155-61bd-47d3-b46d-a6a298268330",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "0a159155-61bd-47d3-b46d-a6a298268330"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 282,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2022
+}
