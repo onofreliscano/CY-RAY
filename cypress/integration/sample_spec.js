@@ -14,4 +14,14 @@ describe('ONOFRE - 2nd test', function() {
     // cy.get('.main_page')
     //   .should('include', 'Apache2') 
   })
+
+  it('BDJC-33', function() {
+    cy.visit('http://onofreliscano.com')
+
+    //cy.contains('type').click()
+    // cy.url().should('include', 'onofre')
+ 
+    // cy.get('.main_page')
+    //   .should('include', 'Apache2') 
+  })
 })

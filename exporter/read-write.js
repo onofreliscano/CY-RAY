@@ -48,7 +48,7 @@ fs.readFile('./mochawesome-report/mochawesome.json', 'utf8', (err, jsonString) =
  
          fs.writeFile ("results/test-results.json", JSON.stringify(xraySquema), function(err) {
          if (err) throw err;
-          console.log('complete');
+          //console.log('complete');
          })
         } 
 
