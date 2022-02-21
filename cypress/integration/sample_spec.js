@@ -1,11 +1,11 @@
 describe('ONOFRE - 1st Test', function() {
-  it('TC001 - just for fun!', function() {
+  it('BDJC-31', function() {
     expect(true).to.equal(true)
   })
 })
  
 describe('ONOFRE - 2nd test', function() {
-  it('TC0002 - Gets,validates onofre and asserts', function() {
+  it('BDJC-32', function() {
     cy.visit('http://onofreliscano.com')
 
     //cy.contains('type').click()

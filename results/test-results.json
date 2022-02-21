@@ -1,18 +1,1 @@
-{
-    "tests" : [
-        {
-            "testKey" : "BDJC-31",
-            "start" : "2022-02-20T17:47:35+01:00",
-            "finish" : "2022-02-20T17:50:56+01:00",
-            "comment" : "A Successful execution in 31",
-            "status" : "FAILED"
-        },
-        {
-            "testKey" : "BDJC-32",
-            "start" : "2022-02-20T17:47:35+01:00",
-            "finish" : "2022-02-20T17:50:56+01:00",
-            "comment" : "A Successful execution in 32",
-            "status" : "FAILED"
-        }
-    ]
-}
+{"tests":[{"testKey":"BDJC-32","start":"2022-01-20T23:27:28+01:00","finish":"2022-01-20T23:27:28+01:003572022-01-20T23:27:28+01:00","comment":"Done by QA Team","status":"passed"},{"testKey":"BDJC-32","start":"2022-01-20T23:27:28+01:00","finish":"2022-01-20T23:27:28+01:003572022-01-20T23:27:28+01:00","comment":"Done by QA Team","status":"passed"}]}
