@@ -26,58 +26,33 @@ fs.readFile('./mochawesome-report/mochawesome.json', 'utf8', (err, jsonString) =
   }
   try {
     const issue = JSON.parse(jsonString)
-    //console.log(jsonString)
-    // console.log("TITLE: ", issue.suites.suites[1].tests[0].title)
-    // console.log("DURATION: ", issue.suites.suites[1].duration)
-    // console.log("STATUS: ", issue.suites.suites[1].tests[0].state)
+ 
     console.log(date)
     console.log("----------------------------------")
-    console.log("KLENGHT: " + issue.suites.suites[0].tests.length)
-    for (let suitCounter=0; suitCounter<issue.stats.suites; suitCounter++) {
-      //console.log("SUITE: ", issue.suites.suites[suitCounter].title)
-        for(let testCounter=0; testCounter < issue.suites.suites[suitCounter].tests.length; testCounter++){
-          //console.log("TITLE: ", issue.suites.suites[1].tests[0].title)
-          //console.log("STATUS: ", issue.suites.suites[1].tests[0].state)
 
-          let testResult = {
-            "testKey": issue.suites.suites[1].tests[0].title,
-            "start": "2022-02-19T17:47:35+01:00",
-            "duration": issue.suites.suites[1].tests[0].duration,
-            "speed": issue.suites.suites[1].tests[0].speed,
-            "status": issue.suites.suites[1].tests[0].state
-          }
-         
-          console.log("TITLE: ", testResult.testKey)
-          console.log("STATUS: ", testResult.status)
-          console.log("DURATION: ", testResult.duration)
-          console.log("SPEED: ", testResult.speed)
-          console.log("----------------------------------")
+    console.log("CONTENT: " + issue.suites.suites[0].tests[0].title)
+    console.log("CONTENT: " + issue.suites.suites[1].tests[0].title)
+    for (let suitCounter=0; suitCounter< issue.suites.suites.length; suitCounter++) {
+
+        for (let testCounter=0; testCounter < issue.suites.suites[suitCounter].tests.length; testCounter++){
+    
+          xraySquema.tests.push({
+            testKey: issue.suites.suites[suitCounter].tests[testCounter].title, 
+            start: date,
+            finish: date,
+            comment: "X Done by QA Team",
+            status:issue.suites.suites[suitCounter].tests[testCounter].state,
+           
+ 
+          });
+ 
+         fs.writeFile ("results/test-results.json", JSON.stringify(xraySquema), function(err) {
+         if (err) throw err;
+          console.log('complete');
+         })
         } 
-        var durationSeconds = issue.suites.suites[suitCounter].tests[testCounter].duration+date;
-        console.log(durationSeconds)
-         xraySquema.tests.push({
-           testKey: issue.suites.suites[suitCounter].tests[testCounter].title, 
-           start: date,
-           finish: date,
-           comment: "Done by QA Team",
-           status:issue.suites.suites[suitCounter].tests[testCounter].state,
-          
 
-         });
-        //var json = JSON.stringify(xraySquema);
-      //   fs.readFile('myjsonfile.json', 'utf8', function readFileCallback(err, data){
-      //     if (err){
-      //         console.log(err);
-      //     } else {
-      //       xraySquema = JSON.parse(data); //now it an object
-      //       xraySquema.tests.push({"id": 9, "square":9}); //add some data
-      //       let json = JSON.stringify(xraySquema); //convert it back to json
-      //       fs.writeFile('myjsonfile.json', json, 'utf8', readFileCallback); // write it back 
-      // }});
-      fs.writeFile ("results/test-results.json", JSON.stringify(xraySquema), function(err) {
-        if (err) throw err;
-        console.log('complete');
-        })
+        
           
     }
 
