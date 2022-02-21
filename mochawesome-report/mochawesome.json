@@ -1,14 +1,14 @@
 {
   "stats": {
     "suites": 2,
-    "tests": 2,
-    "passes": 2,
+    "tests": 3,
+    "passes": 3,
     "pending": 0,
     "failures": 0,
-    "start": "2022-02-21T02:22:57.154Z",
-    "end": "2022-02-21T02:22:58.873Z",
-    "duration": 1719,
-    "testsRegistered": 2,
+    "start": "2022-02-21T04:27:02.731Z",
+    "end": "2022-02-21T04:27:04.510Z",
+    "duration": 1779,
+    "testsRegistered": 3,
     "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
@@ -19,135 +19,110 @@
     "pendingPercentClass": "danger"
   },
   "suites": {
-    "uuid": "fe4d674e-3533-4b21-bccd-fca7756d7ca8",
+    "uuid": "91d3e1ac-4be0-4cd7-9ab1-a90930448404",
     "title": "",
     "fullFile": "cypress/integration/sample_spec.js",
     "file": "cypress/integration/sample_spec.js",
-    "beforeHooks": [
-
-    ],
-    "afterHooks": [
-
-    ],
-    "tests": [
-
-    ],
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
     "suites": [
       {
-        "uuid": "d53e252c-36b0-4af3-9735-a45ead15e73c",
+        "uuid": "59415d34-8eb5-4ef5-a282-47b444d97e90",
         "title": "ONOFRE - 1st Test",
         "fullFile": "",
         "file": "",
-        "beforeHooks": [
-
-        ],
-        "afterHooks": [
-
-        ],
+        "beforeHooks": [],
+        "afterHooks": [],
         "tests": [
           {
             "title": "BDJC-31",
             "fullTitle": "ONOFRE - 1st Test BDJC-31",
-            "duration": 17,
+            "duration": 16,
             "state": "passed",
             "speed": "fast",
             "pass": true,
             "fail": false,
             "pending": false,
             "code": "expect(true).to.equal(true);",
-            "err": {
-
-            },
+            "err": {},
             "isRoot": false,
-            "uuid": "56309903-5f9e-4d93-8944-9bb97d3853d2",
+            "uuid": "44c65d44-d26d-4c1b-b892-2ec011294fa7",
             "isHook": false,
             "skipped": false
           }
         ],
-        "suites": [
-
-        ],
+        "suites": [],
         "passes": [
-          "56309903-5f9e-4d93-8944-9bb97d3853d2"
+          "44c65d44-d26d-4c1b-b892-2ec011294fa7"
         ],
-        "failures": [
-
-        ],
-        "pending": [
-
-        ],
-        "skipped": [
-
-        ],
-        "duration": 17,
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 16,
         "root": false,
         "rootEmpty": false,
         "_timeout": 2000
       },
       {
-        "uuid": "67034ed6-a9b7-475c-b9a5-3692b4d90382",
+        "uuid": "616696b5-7356-4e67-ad54-dcfe3fa638a2",
         "title": "ONOFRE - 2nd test",
         "fullFile": "",
         "file": "",
-        "beforeHooks": [
-
-        ],
-        "afterHooks": [
-
-        ],
+        "beforeHooks": [],
+        "afterHooks": [],
         "tests": [
           {
             "title": "BDJC-32",
             "fullTitle": "ONOFRE - 2nd test BDJC-32",
-            "duration": 357,
+            "duration": 290,
             "state": "passed",
             "speed": "slow",
             "pass": true,
             "fail": false,
             "pending": false,
             "code": "cy.visit('http://onofreliscano.com'); //cy.contains('type').click()\n// cy.url().should('include', 'onofre')\n// cy.get('.main_page')\n//   .should('include', 'Apache2')",
-            "err": {
-
-            },
+            "err": {},
             "isRoot": false,
-            "uuid": "23a7db9a-114e-4144-8343-10e7fd40785c",
+            "uuid": "ac7064b1-6ea8-4c11-881c-fc5c6ae9a489",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "BDJC-35",
+            "fullTitle": "ONOFRE - 2nd test BDJC-35",
+            "duration": 243,
+            "state": "passed",
+            "speed": "slow",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "cy.visit('http://onofreliscano.com'); //cy.contains('type').click()\n// cy.url().should('include', 'onofre')\n// cy.get('.main_page')\n//   .should('include', 'Apache2')",
+            "err": {},
+            "isRoot": false,
+            "uuid": "ea8b8ccf-589f-44f5-b6b6-f42d3f495991",
             "isHook": false,
             "skipped": false
           }
         ],
-        "suites": [
-
-        ],
+        "suites": [],
         "passes": [
-          "23a7db9a-114e-4144-8343-10e7fd40785c"
+          "ac7064b1-6ea8-4c11-881c-fc5c6ae9a489",
+          "ea8b8ccf-589f-44f5-b6b6-f42d3f495991"
         ],
-        "failures": [
-
-        ],
-        "pending": [
-
-        ],
-        "skipped": [
-
-        ],
-        "duration": 357,
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 533,
         "root": false,
         "rootEmpty": false,
         "_timeout": 2000
       }
     ],
-    "passes": [
-
-    ],
-    "failures": [
-
-    ],
-    "pending": [
-
-    ],
-    "skipped": [
-
-    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
     "duration": 0,
     "root": true,
     "rootEmpty": true,

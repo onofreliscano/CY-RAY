@@ -32,6 +32,7 @@ fs.readFile('./mochawesome-report/mochawesome.json', 'utf8', (err, jsonString) =
 
     console.log("CONTENT: " + issue.suites.suites[0].tests[0].title)
     console.log("CONTENT: " + issue.suites.suites[1].tests[0].title)
+    console.log("CONTENT: " + issue.suites.suites[1].tests[1].title)
     for (let suitCounter=0; suitCounter< issue.suites.suites.length; suitCounter++) {
 
         for (let testCounter=0; testCounter < issue.suites.suites[suitCounter].tests.length; testCounter++){

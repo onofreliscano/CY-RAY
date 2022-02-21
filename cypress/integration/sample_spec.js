@@ -15,7 +15,7 @@ describe('ONOFRE - 2nd test', function() {
     //   .should('include', 'Apache2') 
   })
 
-  it('BDJC-33', function() {
+  it('BDJC-35', function() {
     cy.visit('http://onofreliscano.com')
 
     //cy.contains('type').click()
