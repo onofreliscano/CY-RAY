@@ -58,7 +58,7 @@ fs.readFile('./mochawesome-report/mochawesome.json', 'utf8', (err, jsonString) =
          xraySquema.tests.push({
            testKey: issue.suites.suites[1].tests[0].title, 
            start: date,
-           finish: date+durationSeconds,
+           finish: date,
            comment: "Done by QA Team",
            status:issue.suites.suites[1].tests[0].state,
           
