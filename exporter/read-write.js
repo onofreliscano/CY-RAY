@@ -53,14 +53,14 @@ fs.readFile('./mochawesome-report/mochawesome.json', 'utf8', (err, jsonString) =
           console.log("SPEED: ", testResult.speed)
           console.log("----------------------------------")
         } 
-        var durationSeconds = issue.suites.suites[1].tests[0].duration+date;
+        var durationSeconds = issue.suites.suites[suitCounter].tests[testCounter].duration+date;
         console.log(durationSeconds)
          xraySquema.tests.push({
-           testKey: issue.suites.suites[1].tests[0].title, 
+           testKey: issue.suites.suites[suitCounter].tests[testCounter].title, 
            start: date,
            finish: date,
            comment: "Done by QA Team",
-           status:issue.suites.suites[1].tests[0].state,
+           status:issue.suites.suites[suitCounter].tests[testCounter].state,
           
 
          });
