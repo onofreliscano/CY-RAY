@@ -1,0 +1,164 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-10-16T06:10:54.998Z",
+    "end": "2022-10-16T06:11:05.469Z",
+    "duration": 1949,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c6dcbf2a-6894-4917-9ec6-11404d44bc64",
+      "title": "",
+      "fullFile": "cypress/e2e/PRD-1.cy.js",
+      "file": "cypress/e2e/PRD-1.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "24890677-19d5-4871-8513-2857e6c9324e",
+          "title": "PRD-1",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "PRD-1",
+              "fullTitle": "PRD-1 PRD-1",
+              "timedOut": null,
+              "duration": 1084,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://example.cypress.io');",
+              "err": {},
+              "uuid": "30ffb28b-0108-49ec-a441-63596a535cc7",
+              "parentUUID": "24890677-19d5-4871-8513-2857e6c9324e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "30ffb28b-0108-49ec-a441-63596a535cc7"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1084,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "3391c6fe-f47a-4efb-8a02-ae54c3484875",
+      "title": "",
+      "fullFile": "cypress/e2e/PRD-2.cy.js",
+      "file": "cypress/e2e/PRD-2.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "c293f9f5-e0c5-4e3c-86af-51e79b2c18d4",
+          "title": "PRD-2",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "PRD-2",
+              "fullTitle": "PRD-2 PRD-2",
+              "timedOut": null,
+              "duration": 865,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://example.cypress.io');",
+              "err": {},
+              "uuid": "58bafdea-abc4-4fb4-a169-1c225e06924e",
+              "parentUUID": "c293f9f5-e0c5-4e3c-86af-51e79b2c18d4",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "58bafdea-abc4-4fb4-a169-1c225e06924e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 865,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "./mochawesome-report"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
