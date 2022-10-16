@@ -1,11 +1,1 @@
-{"testExecutionKey":"PRD-5",
-"info":{"project":"PRD",
-"summary":"QA Daily Execution",
-"description":"Daily test - 001",
-"user":"onofre.liscano","testPlanKey":"PRD-4"},
-"tests":
-[{"testKey":"spec2",
-"comment":"Just test",
-"status":"passed"},
-{"testKey":"spec1","comment":"Just test","status":"passed"},
-{"testKey":"spec2","comment":"Just test","status":"passed"}]}
+{"testExecutionKey":"PRD-5","info":{"project":"PRD","summary":"QA Daily Execution","description":"Daily test - 001","user":"onofre.liscano","testPlanKey":"PRD-4"},"tests":[{"testKey":"PRD-1","comment":"Just test","status":"passed"},{"testKey":"PRD-2","comment":"Just test","status":"passed"}]}

@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-10-16T04:34:28.541Z",
-    "end": "2022-10-16T04:34:30.791Z",
-    "duration": 2250,
+    "start": "2022-10-16T05:46:22.891Z",
+    "end": "2022-10-16T05:46:25.007Z",
+    "duration": 2116,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,27 +18,27 @@
   },
   "results": [
     {
-      "uuid": "34193315-77d9-4bf8-bd7f-24e087d86ca1",
+      "uuid": "961e5225-24c5-4454-a921-3d8a83ce5fc1",
       "title": "",
-      "fullFile": "cypress/e2e/spec2.cy.js",
-      "file": "cypress/e2e/spec2.cy.js",
+      "fullFile": "cypress/e2e/PRD-2.cy.js",
+      "file": "cypress/e2e/PRD-2.cy.js",
       "beforeHooks": [],
       "afterHooks": [],
       "tests": [],
       "suites": [
         {
-          "uuid": "fa3ab9e7-79b9-4ef3-88d3-812e2ab317f4",
-          "title": "empty spec",
+          "uuid": "5401878c-2812-4c4b-a197-2b178d3ec936",
+          "title": "PRD-2",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
           "afterHooks": [],
           "tests": [
             {
-              "title": "spec2",
-              "fullTitle": "empty spec spec2",
+              "title": "PRD-2",
+              "fullTitle": "PRD-2 PRD-2",
               "timedOut": null,
-              "duration": 935,
+              "duration": 875,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit('https://example.cypress.io');",
               "err": {},
-              "uuid": "654b1077-9b5a-4731-9195-462646483b19",
-              "parentUUID": "fa3ab9e7-79b9-4ef3-88d3-812e2ab317f4",
+              "uuid": "801f0ff4-9e80-481a-a0bd-f8ff9ad5a0d1",
+              "parentUUID": "5401878c-2812-4c4b-a197-2b178d3ec936",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "654b1077-9b5a-4731-9195-462646483b19"
+            "801f0ff4-9e80-481a-a0bd-f8ff9ad5a0d1"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 935,
+          "duration": 875,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
