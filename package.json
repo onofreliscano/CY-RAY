@@ -1,0 +1,19 @@
+{
+  "name": "cy-ray",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "combine-reports": "mochawesome-merge ./mochawesome-report/*.json > ./report/output.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.10.0",
+    "fs": "^0.0.1-security",
+    "mocha": "^10.1.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.1"
+  }
+}
