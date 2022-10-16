@@ -5,6 +5,7 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
+    "projectId": "pno4j4",
     "reporter": "mochawesome",
     "reporterOptions": {
       "charts": true,

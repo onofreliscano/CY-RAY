@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-10-16T03:34:15.027Z",
-    "end": "2022-10-16T03:34:17.132Z",
-    "duration": 2105,
+    "start": "2022-10-16T04:34:20.003Z",
+    "end": "2022-10-16T04:34:22.738Z",
+    "duration": 2735,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,16 +18,16 @@
   },
   "results": [
     {
-      "uuid": "4fe7d530-b713-4b67-bdf7-9dd6548e5d9a",
+      "uuid": "22425e14-508a-4b11-bfbd-fb5075470c65",
       "title": "",
-      "fullFile": "cypress/e2e/spec2.cy.js",
-      "file": "cypress/e2e/spec2.cy.js",
+      "fullFile": "cypress/e2e/spec1.cy.js",
+      "file": "cypress/e2e/spec1.cy.js",
       "beforeHooks": [],
       "afterHooks": [],
       "tests": [],
       "suites": [
         {
-          "uuid": "e0b7f0d2-35bf-4fe1-af5b-b85a06b9d1b1",
+          "uuid": "3561196c-d761-4e94-a665-d39561d8ab90",
           "title": "empty spec",
           "fullFile": "",
           "file": "",
@@ -35,10 +35,10 @@
           "afterHooks": [],
           "tests": [
             {
-              "title": "spec2",
-              "fullTitle": "empty spec spec2",
+              "title": "spec1",
+              "fullTitle": "empty spec spec1",
               "timedOut": null,
-              "duration": 851,
+              "duration": 1166,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit('https://example.cypress.io');",
               "err": {},
-              "uuid": "66163f19-5a6c-40b8-9e22-3f8da520d8ce",
-              "parentUUID": "e0b7f0d2-35bf-4fe1-af5b-b85a06b9d1b1",
+              "uuid": "e8265c36-173c-47ef-822b-86b970f79fa0",
+              "parentUUID": "3561196c-d761-4e94-a665-d39561d8ab90",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "66163f19-5a6c-40b8-9e22-3f8da520d8ce"
+            "e8265c36-173c-47ef-822b-86b970f79fa0"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 851,
+          "duration": 1166,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -84,7 +84,7 @@
       "options": {
         "quiet": false,
         "reportFilename": "mochawesome",
-        "saveHtml": true,
+        "saveHtml": false,
         "saveJson": true,
         "consoleReporter": "spec",
         "useInlineDiffs": false,
@@ -93,7 +93,13 @@
       "version": "7.1.3"
     },
     "marge": {
-      "options": null,
+      "options": {
+        "charts": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "./mochawesome-report"
+      },
       "version": "6.2.0"
     }
   }
