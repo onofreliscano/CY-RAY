@@ -1,0 +1,13 @@
+{
+  "jenkinsConfiguration": {
+    "endpoint": "Xray",
+    "serverInstance": "${XRAY_SERVER_INSTANCE}", 
+    "tests": [
+        {
+          "projectKey": "PRD",
+          "testPlanKey": "PRD-4",
+          "testExecutionKey": "PRD-5"
+        }
+      ]
+  }
+ }
